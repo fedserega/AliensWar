@@ -11,7 +11,7 @@ class Enemy(Sprite):
         self.settings = settings
 
         # Загрузка изображения врага и назначение атрибута rect.
-        self.image = pygame.image.load("images/enemy.bmp")
+        self.image = pygame.image.load("enemy.png")
         self.rect = self.image.get_rect()
 
         # Начало каждого нового врага вблизи верхнего левого угла экрана.
